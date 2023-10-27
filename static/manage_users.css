@@ -1,0 +1,134 @@
+/* manage_users.css */
+
+body {
+    margin: 0;
+    background-color: #212121;
+}
+
+.main {
+    width: 60vw;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20vh;
+    margin-left: 20vw;
+    background-color: #e0e0e0;
+}
+
+.name {
+    font-size: 200%;
+    font-family: monospace;
+}
+
+.email {
+    font-size: 150%;
+    color: #404040;
+    font-family: monospace;
+    margin-bottom: 2rem;
+}
+
+.user-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+.user-row {
+    border: 1px solid #ccc;
+}
+
+.user-table th {
+    background-color: #404040;
+    color: #e0e0e0;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.user-name, .user-email {
+    padding: 10px;
+}
+
+.user-action a {
+    padding: 5px 10px;
+    background-color: #212121;
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 5px;
+    border: none;
+}
+
+.user-action a:hover {
+    background-color: #404040;
+}
+
+.button {
+    font-family: monospace;
+    background-color: #212121;
+    color: #e0e0e0;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.button:hover {
+    background-color: #404040;
+}
+
+.back-button {
+    font-family: monospace;
+    background-color: #212121;
+    color: #e0e0e0;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    margin-top: 2rem;
+}
+
+.back-button:hover {
+    background-color: #404040;
+}
+
+.user-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.form-field label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 5px;
+}
+
+.user-form button {
+    font-family: monospace;
+    background-color: #212121;
+    color: #e0e0e0;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.user-form button:hover {
+    background-color: #404040;
+}

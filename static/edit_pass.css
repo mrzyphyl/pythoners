@@ -1,0 +1,77 @@
+/* Style for edit_password.html */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.main {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+a.button {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #ccc;
+    color: #333;
+}
+
+a.button:hover {
+    background: #bbb;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'forgot_pass.css') }}">
+</head>
+<body>
+    <h1>Forgot Password</h1>
+    <form method="POST" action="{{ url_for('forgot_password_step1') }}">
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email" id="email" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

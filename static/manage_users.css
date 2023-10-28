@@ -62,6 +62,23 @@ body {
     background-color: #404040;
 }
 
+.a {
+    font-family: monospace;
+    background-color: #212121;
+    color: #e0e0e0;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    width: 18%;
+}
+
+.a:hover {
+    background-color: #404040;
+}
+
 .button {
     font-family: monospace;
     background-color: #212121;

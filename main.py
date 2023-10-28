@@ -3,14 +3,14 @@ from flask import Flask, flash, redirect, render_template, request, session, url
 
 app = Flask(__name__)
 
-# Replace the following with your MongoDB Atlas connection string
+# MongoDB Atlas connection string
 atlas_connection_string = "mongodb+srv://suka:suka@suka.4rgdg99.mongodb.net/?retryWrites=true&w=majority"
 
 # Initialize the MongoDB client
 client = MongoClient(atlas_connection_string)
-db = client.get_database("Suka")  # Replace with your database name
+db = client.get_database("Suka") 
 
-# Define a collection to store user data
+# Define a collection
 user_collection = db.users
 
 # Login

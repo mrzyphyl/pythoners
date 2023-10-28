@@ -23,3 +23,13 @@
     </div>
 </body>
 </html>
+
+<script>
+    var messages = {{ get_flashed_messages() | tojson | safe }};
+    if (messages) {
+        for (var i = 0; i < messages.length; i++) {
+            alert(messages[i]);
+        }
+    }
+</script>
+

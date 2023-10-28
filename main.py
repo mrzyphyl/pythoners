@@ -82,11 +82,17 @@ def register():
             "password": password,
             "name": name
         }
+        
+        # Check if the email already exists
+        if user_collection.find_one({"email": email}) is not None:
+            flash("Email already exists.", "error")
+            return render_template("signup.html", flash=flash)
 
-        user_collection.insert_one(user_data)
-        session['email'] = email
-        session['name'] = name
-        return redirect(url_for('welcome'))
+        else:
+            user_collection.insert_one(user_data)
+            session['email'] = email
+            session['name'] = name
+            return redirect(url_for('welcome'))
 
     if 'email' in session:
         return redirect(url_for('welcome'))

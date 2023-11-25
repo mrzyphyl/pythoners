@@ -1,5 +1,7 @@
 # Python-Firebase-Flask login/register web-app
 
+Simple CRUD system for flask framework
+
 ## Features
 1) Login/Sign up - Hosted on MongoDB
 3) Based on Python-Flask
